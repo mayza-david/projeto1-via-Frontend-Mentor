@@ -1,0 +1,28 @@
+@media screen and (max-width: 866px) {
+    .servicos {
+        margin: 5% 8% 5% 8%;
+        flex-direction: column;
+    }
+
+    .imagem {
+        display: none;
+    }
+
+    .imagemMob {
+        display: flex;
+        justify-content: top;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+
+    .card-texto {
+        justify-content: bottom;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+}

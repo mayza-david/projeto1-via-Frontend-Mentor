@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: 'Arial';
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    background: hsl(30, 38%, 92%);
+}
+
+.servicos {
+    margin: 10% 32% 10% 32%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card-imagem {
+    margin: 0;
+    width: 50%;
+    justify-content: left;
+}
+
+.imagem {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.imagemMob {
+    display: none;
+}
+
+.card-texto {
+    margin: 0;
+    width: 50%;
+    justify-content: right;
+    background: hsl(0, 0%, 100%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.cardInterno {
+    margin: 20px;
+}
+
+.nComEstilo {
+    margin: 0;
+    color: hsl(158, 36%, 37%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    display: inline-block;
+}
+
+.nSemEstilo {
+    margin-left: 10px;
+    font-size: small;
+    color: hsl(228, 12%, 48%);
+    display: inline-block;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+.botao {
+    color: hsl(0, 0%, 100%);
+    padding: 8px;
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
